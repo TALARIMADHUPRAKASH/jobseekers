@@ -1,0 +1,756 @@
+<html>
+<head>
+<style>
+a:visited, a.visited {
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: none;
+    color: #00F;
+}
+a:link {
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: none;
+    color: #00F;
+}
+a {
+    font-family: Arial, Helvetica, Sans-Serif;
+    text-decoration: none;
+    color: #19455D;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+Style Attribute {
+    text-align: center;
+    font-weight: bold;
+}
+user agent stylesheet
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.panels {
+    position:relative;
+    width:100%;
+    z-index:-1000;
+}
+
+#fixed{
+    position:fixed;
+    top:0;
+    z-index:99;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+    $("#bank").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#bank1").show();
+    });
+	$("#rail").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#rail1").show();
+    });
+	$("#teaching").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#teaching1").show();
+    });
+	$("#it").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#it1").show();
+    });
+	$("#account").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#account1").show();
+    });
+	$("#tele").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#tele1").show();
+    });
+	$("#finance").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#finance1").show();
+    });
+	$("#retail").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#retail1").show();
+    });
+	$("#food").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#food1").show();
+    });
+	$("#medical").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#medical1").show();
+    });
+	$("#civil").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#civil1").show();
+    });
+	$("#psu").click(function(){
+		$("#bank1,#rail1,#teaching1,#it1,#account1,#tele1,#finance1,#retail1,#food1,#medical1,#civil1,#psu1").hide();
+        $("#psu1").show();
+    });
+});
+</script>
+</head>
+<body style="background-image: url(28.jpg);background-size:100%;font-family: Arial, Helvetica, Sans-Serif;font-size: 13px;color: #000000;">
+<div style="position:absolute;height:100%;width:100%;">
+<div class="panels" id="fixed" style="margin-left:300px;width:60%;height:200px;background-color:white;">
+<br>
+<a href="home.html"><input type="button" style="background-size:100%;background-image:url(back.png);width:50px;height:36px;" id="back"></a>
+<p style="text-align: left; color: #800000; font-weight:bold;">Latest Notification:</p>
+<table style="margin-left:40px;background-color: #d8f6ce; border-color: #000000; border-width: 5px; border-style: solid;" cellpadding="2" cellspacing="2" border="5">
+<tbody>
+<tr style="text-align: center; font-weight:bold;">
+<td><a id="civil" href="#civil">civil services</a></td>
+<td><a id="bank" title="Banking services" href="#bank">Banking services</a></td>
+<td><a id="rail" title="Railways" href="#rail">Railways</a></td>
+<td><a id="psu" title="PSU's" href="#psu">PSU's</a></td>
+<td><a id="teaching" title="Teaching" href="#teaching">Teaching</a></td>
+<td><a id="finance" title="Financial Managers" href="#financial">Financial Managers</a></td>
+</tr>
+<tr style="text-align: center; font-weight:bold;">
+<td><a id="it" title="IT Engineers" href="#it">IT Engineers</a></td>
+<td><a id="account" title="Charted Accountant" href="#account">Charted Accountant</a></td>
+<td><a id="tele" title="Telecom" href="#telecom">Telecom</a></td>
+<td><a id="retail" title="Retail Store Managers" href="#retail">Retail Store Managers</a></td>
+<td><a id="medical" title="Medical Managers" href="#medical">Medical Managers</a></td>
+<td><a id="food" title="Food Managers" href="#food">Food Managers</a></td>
+</tr>
+</tbody>
+</table>
+<p align="center" style="color:red;"><b>Click on the above domains to show latest jobs</b></p>
+</div>
+<div id="bank1" name="bank" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;"> Banking services </h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Bank Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>10/04/2018</td>
+<td>bank manager</td>
+<td>HDFC &#8211; 2 Posts</td>
+<td>0-5 years</td>
+<td>Mumbai</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>8/04/2018</td>
+<td>PO</td>
+<td>Punjab National Bank &#8211; 2 Posts</td>
+<td>0-10 years</td>
+<td>pune</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>04/04/2018</td>
+<td>Cashier</td>
+<td>Tech Group &#8211; 2 Posts</td>
+<td>5-10 years</td>
+<td>Pune</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>04/04/2018</td>
+<td>Cashier</td>
+<td>Indian Bank &#8211; 1 Posts</td>
+<td>5 years</td>
+<td>Pune</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>03/04/2018</td>
+<td>Clerk</td>
+<td>NIC Bank &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Patna</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="rail1" name="rail"class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;"> Railways </h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>10/04/2018</td>
+<td>railway engineer</td>
+<td>Western Railways &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Allahabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>05/04/2018</td>
+<td>driver</td>
+<td>Eastern Railways &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Kolkatta</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>05/04/2018</td>
+<td>TC</td>
+<td>South Central Railways &#8211; 1 Posts</td>
+<td>5 years</td>
+<td>Hyderabad</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="teaching1" name="teaching" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;"> Teaching </h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Institution Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>professor</td>
+<td>SV University &#8211; 1 Posts</td>
+<td>5 years</td>
+<td>Tirupathi</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Lab Assistant</td>
+<td>CBIT &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Hyderabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>teacher</td>
+<td>Delhi Public School &#8211; 1 Posts</td>
+<td>10 years</td>
+<td>Delhi</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Assistant Professor</td>
+<td>Pulla Reddy Engineering College &#8211; 1 Posts</td>
+<td>10 years</td>
+<td>Kurnool</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="it1" name="it"  class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;"> IT Engineers </h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>coder</td>
+<td>Infotech &#8211; 1 Posts</td>
+<td>3 years</td>
+<td>Delhi</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Designer</td>
+<td>Google &#8211; 1 Posts</td>
+<td>5 years</td>
+<td>Chennai</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Analyst</td>
+<td>IBM &#8211; 1 Posts</td>
+<td>8 years</td>
+<td>New York</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Tester</td>
+<td>Wipro &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Banglore</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="account1" name="account" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Charted Accountant </h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>FundAccountantSpecialist</td>
+<td>Agrigold &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Hyderabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>SAPoperator</td>
+<td>LIC(Life Insurance Corporation) &#8211; 1 Posts</td>
+<td>2 years</td>
+<td>Banglore</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Senior Accountant</td>
+<td>Agrigold &#8211; 1 Posts</td>
+<td>8 years</td>
+<td>Chennai</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Accountant Administrator</td>
+<td>Fund Safety and Solutions &#8211; 1 Posts</td>
+<td>3 years</td>
+<td>Jaipur</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="tele1" name="tele" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Telecom </h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Hardware Design Engineer</td>
+<td>Reliance Jio &#8211; 1 Posts</td>
+<td>6 years</td>
+<td>Mumbai</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>RPA consultant</td>
+<td>Aircel &#8211; 1 Posts</td>
+<td>4 years</td>
+<td>Pune</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Telecaller</td>
+<td>Idea &#8211; 1 Posts</td>
+<td>2 years</td>
+<td>Vijayawada</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Fiber Manager</td>
+<td>Bharati Airtel &#8211; 1 Posts</td>
+<td>3 years</td>
+<td>Hyderabad</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="finance1" name="finance" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Financial Manager</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Financial Manager</td>
+<td>Anil Group of Assistance &#8211; 1 Posts</td>
+<td>3 years</td>
+<td>Vijayawada</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Financial Manager</td>
+<td>Vidyanikethan Trust &#8211; 1 Posts</td>
+<td>4 years</td>
+<td>Kadapa</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="retail1" name="retail" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Retail Store Manager</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Retail Store Manager</td>
+<td>Heritage Stores &#8211; 1 Posts</td>
+<td>2 years</td>
+<td>Chennai</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>13/04/2018</td>
+<td>Retail Store Manager</td>
+<td>More Stores &#8211; 1 Posts</td>
+<td>2 years</td>
+<td>Mumbai</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="food1" name="food" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Food Manager</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Food Manager</td>
+<td>TAJ Hotels &#8211; 1 Posts</td>
+<td>4 years</td>
+<td>Tirupati</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Food Manager</td>
+<td>Greenland Hotels &#8211; 1 Posts</td>
+<td>2 years</td>
+<td>Anantapur</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="medical1" name="medical" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Medical Manager</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Hospital Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Medical Manager</td>
+<td>AIIMS &#8211; 1 Posts</td>
+<td>0 years</td>
+<td>Pondicherry</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Medical Manager</td>
+<td>Apolo Medicals &#8211; 1 Posts</td>
+<td>1 years</td>
+<td>Nandyal</td>
+</tr>
+</tbody>
+</table>
+<br>
+<br>
+</div>
+<div id="civil1" class="panels" name="civil" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Civil Services - Group1</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Department Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Deputy Collector</td>
+<td>District Collectrate &#8211; 4 Posts</td>
+<td>0 years</td>
+<td>Hyderabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Assistant Commisioner of Police(ACP)</td>
+<td>Police Department &#8211; 6 Posts</td>
+<td>0 years</td>
+<td>Ongole</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>11/04/2018</td>
+<td>Deputy Registrar</td>
+<td>District Collectrate &#8211; 6 Posts</td>
+<td>1 years</td>
+<td>Kurnool</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Civil Services - Group2</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Department Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Assistant Commercial Tax Officer</td>
+<td>IT Department &#8211; 4 Posts</td>
+<td>3 years</td>
+<td>Hyderabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Deputy Tehsildar</td>
+<td>MRO-Office &#8211; 2 Posts</td>
+<td>0 years</td>
+<td>Ongole</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Civil Services - Group3</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Department Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Security Staff</td>
+<td>Security Department &#8211; 4 Posts</td>
+<td>1 years</td>
+<td>Hyderabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Sterno Typist</td>
+<td>Typing Department &#8211; 2 Posts</td>
+<td>0 years</td>
+<td>Nellore</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">Civil Services - Group4</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Department Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>16/04/2018</td>
+<td>Junior Assistant</td>
+<td>IT Department &#8211; 4 Posts</td>
+<td>2 years</td>
+<td>Nellore</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Typist</td>
+<td>Typing Department &#8211; 2 Posts</td>
+<td>2 years</td>
+<td>Nandyal</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<div id="psu1" name="psu" class="panels" style="margin-left:300px;margin-top:250px;height:auto;width:60%;max-height:auto;background-color:white;">
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">PSU-BHEL</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Senior Medical Officer</td>
+<td>BHEL &#8211; 4 Posts</td>
+<td>3 years</td>
+<td>Mumbai</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Law Officer</td>
+<td>BHEL &#8211; 6 Posts</td>
+<td>2 years</td>
+<td>Hyderabad</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">PSU-ONGC</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Assistant Executive Engineer</td>
+<td>ONGC &#8211; 4 Posts</td>
+<td>3 years</td>
+<td>West Godavari</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Geologist</td>
+<td>ONGC &#8211; 2 Posts</td>
+<td>3 years</td>
+<td>Vizag</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">PSU-AAI</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Manger</td>
+<td>AAI &#8211; 2 Posts</td>
+<td>5 years</td>
+<td>Delhi</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>12/04/2018</td>
+<td>Junior Executive</td>
+<td>AAI &#8211; 3 Posts</td>
+<td>3 years</td>
+<td>Delhi</td>
+</tr>
+</tbody>
+</table>
+<br>
+<h4 style="margin-bottom:10px; color:#000080;font-weight: bold;">PSU-BSNL</h4>
+<table border="2" cellpadding="2"  style="color:#000000; border: 2px solid #006699;border-collapse: collapse; max-width:790px;">
+<tbody>
+<tr style="border: 1px solid #000000; background-color: #adadad;color: #800000;">
+<th>Post Date</th>
+<th>Post Name</th>
+<th>Company Name</th>
+<th>Experience</th>
+<th>Location</th>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>16/04/2018</td>
+<td>Junior Engineer</td>
+<td>BSNL &#8211; 3 Posts</td>
+<td>0 years</td>
+<td>Hyderabad</td>
+</tr>
+<tr style="border: 1px solid #000000;">
+<td>14/04/2018</td>
+<td>Executive Director</td>
+<td>BSNL &#8211; 1 Posts</td>
+<td>3 years</td>
+<td>Chennai</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.form-group.new-input {
+  position: relative;
+}
+.form-group.new-input input {
+  font: 18px Helvetica, Arial, sans-serif;
+  display: block;
+  padding: 10px;
+  font-size:1em;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  border: 1px solid #bdc3c7;
+  
+}
+.form-group.new-input input::placeholder {
+  transition: all 0.2s ease-in-out;
+  color:black;
+  font: 18px Helvetica, Arial, sans-serif;
+  font-weight:bold;
+}
+.form-group.new-input input:focus::placeholder {
+  color:transparent;
+}
+.form-group.new-input input:focus + .control-label.float-label {
+  opacity: 1;
+  top: 2px;
+  left:20px;
+  background:transparent;
+}
+.form-group.new-input .control-label.float-label {
+  color:transparent;
+  font: 0.8em Helvetica, Arial, sans-serif;
+  position: absolute;
+  top:0px;
+  left: 20px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+#myForm select 
+{ 
+  width:200px;
+  height:40px;
+  margin-top:10px;
+  padding: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  display: block; 
+  color: #333;
+  font-weight: bold;
+}
+
+#myForm select:focus 
+{
+width:200px; 
+}
